@@ -1,0 +1,70 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Pizza', Courier, monospace;
+}
+.container-fluid {
+    background-color: burlywood;
+    background-image: linear-gradient(to right, rgba(255,0,0,0), rgba(255,0,0,1));
+    margin: -10px;
+}
+body {
+  background-image: linear-gradient(to right, rgba(255,0,0,0), rgba(255,0,0,1));
+}
+
+@font-face {
+    font-family: pizza;
+    src: url(FoodDelight-7OP7E.ttf);
+}
+.menu {
+    text-align: center;
+}
+.carousel-container {
+  position: relative;
+  height: 70vh; /* Adjust height as needed */
+  margin-top: 20px; /* Example margin for spacing */
+}
+
+.carousel-item {
+  position:relative;
+  text-align: center; /* Center align contents */
+}
+
+.carousel-item img {
+  max-width: 25%; /* Ensure images do not exceed carousel item width */
+  height: fit-content; /* Maintain aspect ratio */
+  display: block; /* Remove any inline spacing */
+  margin: 0 auto; /* Center align image horizontally */
+}
+
+.pop {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* Custom styles for carousel controls */
+.carousel-control-prev, .carousel-control-next {
+  position: absolute;
+  top: 50%; /* Center vertically */
+  transform: translateY(-50%);
+  width: 40px; /* Adjust width of control buttons */
+  height: 40px; /* Adjust height of control buttons */
+  background-color: rgba(0, 0, 0, 0.5); /* Example background color */
+  border: none;
+  border-radius: 50%;
+  z-index: 1; /* Ensure controls are above images */
+}
+
+.carousel-control-prev {
+  left: 10px; /* Fixed position from the left */
+}
+
+.carousel-control-next {
+  right: 10px; /* Fixed position from the right */
+}
+
+.carousel-control-prev-icon, .carousel-control-next-icon {
+  width: 20px; /* Adjust size of icon */
+  height: 20px; /* Adjust size of icon */
+}
