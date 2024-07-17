@@ -17,9 +17,6 @@ body {
     font-family: pizza;
     src: url(FoodDelight-7OP7E.ttf);
 }
-.menu {
-    text-align: center;
-}
 .carousel-container {
   position: relative;
   height: 70vh; 
@@ -66,4 +63,81 @@ body {
 .carousel-control-prev-icon, .carousel-control-next-icon {
   width: 20px; 
   height: 20px;
+}
+
+p {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+.menu, .beverages {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.menu-list, .beverage-list {
+  list-style-type: none;
+  padding: 0;
+  display: flex; /* put them in order*/
+  flex-wrap: wrap;
+  justify-content: center; /* To center the content*/
+}
+
+.menu-list li, .beverage-list li {
+  flex-basis: 200px; /* Adjust the width of each item */
+  margin: 10px;
+  text-align: center;
+}
+
+.menu-list li img, .beverage-list li img {
+  max-width: 250px; 
+  height: auto;
+}
+
+.menu-list li h3, .beverage-list li h3 {
+  margin-top: 10px;
+  font-size: 16px;
+}
+
+.contact-form {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+textarea {
+  resize: vertical;
+}
+
+.btns {
+  background-color: #e96d08;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.btns:hover {
+  background-color: #45a049;
+}
+
+.btns {
+  background-color: #ff8800;
+  transform: translateY(1px);
 }
