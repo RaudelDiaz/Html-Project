@@ -22,20 +22,20 @@ body {
 }
 .carousel-container {
   position: relative;
-  height: 70vh; /* Adjust height as needed */
-  margin-top: 20px; /* Example margin for spacing */
+  height: 70vh; 
+  margin-top: 20px; 
 }
 
 .carousel-item {
   position:relative;
-  text-align: center; /* Center align contents */
+  text-align: center; 
 }
 
 .carousel-item img {
-  max-width: 25%; /* Ensure images do not exceed carousel item width */
-  height: fit-content; /* Maintain aspect ratio */
-  display: block; /* Remove any inline spacing */
-  margin: 0 auto; /* Center align image horizontally */
+  max-width: 25%;
+  height: fit-content; 
+  display: block; 
+  margin: 0 auto; 
 }
 
 .pop {
@@ -43,28 +43,27 @@ body {
   margin-bottom: 20px;
 }
 
-/* Custom styles for carousel controls */
 .carousel-control-prev, .carousel-control-next {
   position: absolute;
-  top: 50%; /* Center vertically */
+  top: 50%;
   transform: translateY(-50%);
-  width: 40px; /* Adjust width of control buttons */
-  height: 40px; /* Adjust height of control buttons */
-  background-color: rgba(0, 0, 0, 0.5); /* Example background color */
+  width: 40px; 
+  height: 40px; 
+  background-color: rgba(0, 0, 0, 0.5); 
   border: none;
   border-radius: 50%;
-  z-index: 1; /* Ensure controls are above images */
+  z-index: 1; 
 }
 
 .carousel-control-prev {
-  left: 10px; /* Fixed position from the left */
+  left: 10px; 
 }
 
 .carousel-control-next {
-  right: 10px; /* Fixed position from the right */
+  right: 10px;
 }
 
 .carousel-control-prev-icon, .carousel-control-next-icon {
-  width: 20px; /* Adjust size of icon */
-  height: 20px; /* Adjust size of icon */
+  width: 20px; 
+  height: 20px;
 }
