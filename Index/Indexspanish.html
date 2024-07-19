@@ -9,9 +9,11 @@
     <link rel="stylesheet" href="style.css">
     <title>Pizza to Go</title>
 </head>
+
 <nav class="navbar navbar-expand-lg bg-body-tertiary">
+  <div class="col-sm-12 col-md-2"></div>
     <div class="container-fluid">
-      <a class="navbar-brand" href="#"></a><img src="logo.jpg" width="100">
+      <a class="navbar-brand" href="Indexspanish.html"></a><img src="logo.jpg" width="100">
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -43,6 +45,7 @@
 
 
 <body>
+  <div class="col-sm-12 col-md-2"></div>
 <h1 class="pop">Mejores Ofertas</h1>
 <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
   <div class="carousel-inner">
@@ -65,13 +68,13 @@
     <span class="visually-hidden">Next</span>
   </button>
 </div>
-
+<div class="col-sm-12 col-md-2"></div>
 <div>
     <p>Bienvenidos a Pizza to Go, donde cada rebanada cuenta una historia de artesanía y sabor. Ubicados en el corazón de Irving Texas, nuestra pasión por la pizza se iguala solo
        con nuestro compromiso de utilizar los mejores ingredientes y técnicas tradicionales. Ya sea que anheles la simplicidad clásica de una Margherita o los audaces sabores de nuestras pizzas especiales, 
        cada creación se elabora con amor para deleitar tu paladar. Únete a nosotros en Pizza to Go, donde cada bocado es un viaje hacia la maestría de la auténtica pizza italiana.
     </p>
-
+    <div class="col-sm-12 col-md-2"></div>
     <div class="menu">
       <h1>Menu</h1>
       <ul class="menu-list">
@@ -102,7 +105,7 @@
           </li>
       </ul>
   </div>
-      
+  <div class="col-sm-12 col-md-2"></div>
       <div class="beverages">
         <h1>Bebidas</h1>
         <ul class="beverage-list">
@@ -133,7 +136,7 @@
             </li>
         </ul>
       </div>
-         
+      <div class="col-sm-12 col-md-2"></div>
       </body>
       </html>
 <script src="https://formspree.io/js/formbutton-v1.min.js" defer></script>
@@ -143,12 +146,19 @@
     action: "https://formspree.io/f/mjkbkzve",
     title: "¿Como podemos ayudarle?",
     fields: [
+    { 
+             type: "text", 
+             label: "Name:", 
+             name: "Name",
+             required: true,
+             placeholder: "Este campo es mandatorio"
+           },
       { 
         type: "email", 
         label: "Correo:", 
         name: "email",
         required: true,
-        placeholder: "sucorreo@email.com"
+        placeholder: "Este campo es mandatorio"
       },
       {
         type: "textarea",
