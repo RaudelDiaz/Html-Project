@@ -79,13 +79,13 @@ p {
 .menu-list, .beverage-list {
   list-style-type: none;
   padding: 0;
-  display: flex; /* put them in order*/
+  display: flex; 
   flex-wrap: wrap;
-  justify-content: center; /* To center the content*/
+  justify-content: center; 
 }
 
 .menu-list li, .beverage-list li {
-  flex-basis: 200px; /* Adjust the width of each item */
+  flex-basis: 200px;
   margin: 10px;
   text-align: center;
 }
@@ -106,4 +106,38 @@ p {
 }
 .btna {
   font-family: 'Pizza', Courier, monospace;
+}
+.m {
+  text-align:  center;
+}
+.footer {
+  background-image: linear-gradient(to right, rgba(255,0,0,0), rgba(255,0,0,1));
+}
+ /* Styling for the footer */
+ .footer {
+  background-color: burlywood;
+  background-image: linear-gradient(to right, rgba(255,0,0,0), rgba(255,0,0,1));
+  padding: 5px 0;
+  text-align: center;
+  color: #333;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
+
+.footer-content {
+  font-size: 1.0rem;
+}
+.social-links a {
+  display: inline-block;
+  margin: 0 10px;
+  color: #333; 
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+.social-links a:hover {
+  color: #E53935; 
+}
+.social-icons {
+  font-size: 1.9rem;
 }
