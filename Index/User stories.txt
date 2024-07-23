@@ -1,5 +1,5 @@
 User Stories:
 
-1- As a user I want to be able to see content in two languages
+1- As a user I want to be able to see content in spanish and english
 2- As a user I want to contact with the website team
 3- As a user I want to see the options of the menu and drinks
